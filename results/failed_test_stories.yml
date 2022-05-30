@@ -1,0 +1,6 @@
+version: "3.0"
+stories:
+- story: 1- show out of scope (./tests/test_stories.yml)
+  steps:
+  - intent: out_of_scope  # predicted: nlu_fallback: wanyigisha gukora amandazi
+  - action: utter_out_of_scope  # predicted: action_check_statistics

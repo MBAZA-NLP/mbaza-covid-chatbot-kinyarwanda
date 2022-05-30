@@ -1,0 +1,61 @@
+# The image tagged with the 'full' suffix
+
+
+FROM rasa/rasa:3.0.1-mitie-en as mitie
+
+
+FROM rasa/rasa:base-builder-3f26326da9e19d8f5b2be68a8dd625490688e821328ecc454cadcf3f8f7999e4-poetry-1.1.4 as builder
+
+#COPY  ./build/data /build/data
+
+# copy files
+COPY . /build/
+COPY ./configs/config_pretrained_embeddings_spacy_en_duckling.yml /build/config.yml
+
+# change working directory
+WORKDIR /build
+
+# install dependencies
+RUN python -m venv /opt/venv && \
+  . /opt/venv/bin/activate && \
+  pip install --no-cache-dir -U "pip==21.*"
+RUN . /opt/venv/bin/activate && poetry install --extras full --no-dev --no-root --no-interaction
+RUN . /opt/venv/bin/activate && make install-mitie && \
+  poetry build -f wheel -n && \
+  pip install --no-deps dist/*.whl && \
+  rm -rf dist *.egg-info
+
+# make sure we use the virtualenv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# spacy link
+RUN python -m spacy download xx_ent_wiki_sm && \
+    python -m spacy link xx_ent_wiki_sm xx
+
+# start a new build stage
+FROM rasa/rasa:base-7de713a7b2fee11602f59cd34f43eb4e1b336f052a7c292c017cb0365ed5d97b as runner
+
+# copy everything from /opt
+COPY --from=builder /opt/venv /opt/venv
+
+# make sure we use the virtualenv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# set HOME environment variable
+ENV HOME=/app
+
+# update permissions & change user to not run as root
+WORKDIR /app
+RUN chgrp -R 0 /app && chmod -R g=u /app && chmod o+wr /app
+USER 1001
+
+# Create a volume for temporary data
+VOLUME /tmp
+
+# change shell
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+# the entry point
+EXPOSE 5005
+ENTRYPOINT ["rasa"]
+CMD ["--help"]

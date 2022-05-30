@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Murabeho",
+    "intent": "salutations",
+    "intent_prediction": {
+      "name": "sendoff",
+      "confidence": 0.9252297878265381
+    }
+  },
+  {
+    "text": "ese najya hanze amasaha yo gufunga yarenze?",
+    "intent": "curfew_time",
+    "intent_prediction": {
+      "name": "fines_penalties",
+      "confidence": 0.960509717464447
+    }
+  },
+  {
+    "text": "murakoze",
+    "intent": "sendoff",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.8864446878433228
+    }
+  },
+  {
+    "text": "wanyigisha gukora amandazi",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "inappropriate",
+      "confidence": 0.4679073393344879
+    }
+  }
+]

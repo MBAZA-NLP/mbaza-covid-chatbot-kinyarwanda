@@ -1,0 +1,314 @@
+[
+  {
+    "text": "mfatiwe mu kabari?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "kabari",
+        "entity": "offence-bar"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bigendute iyo umuntu yishe amabwiriza yo guhana intera?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 54,
+        "value": "guhana intera",
+        "entity": "offence-distance"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "igipimo cya covid ni amafaranga angahe?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kwipimisha kovide ni angahe ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "igipimo cya covid gitakaza agaciro ryari?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "covid",
+        "entity": "disease"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "value": "agaciro",
+        "entity": "test-validity"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ni hehe bapimira covid",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nakwipimishiriza hehe covid",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "nakwipimishiriza",
+        "entity": "service-type"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nizihe nzira bacamo kugira bagupime covid",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "konshaka guhindura gahunda yibijyanye no gukingirwa?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 51,
+        "value": "gukingirwa",
+        "entity": "service-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gahunda zijyanye n'urukingo mu ntara zimeze gute?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "urukingo",
+        "entity": "service-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ese kovide igira ibihe ibimenyetso",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "covid",
+        "entity": "disease"
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "value": "ibimenyetso",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Narinkeneye ubufasha ngo menye igihe nazajya gukingirwa",
+    "entities": [
+      {
+        "start": 45,
+        "end": 55,
+        "value": "gukingirwa",
+        "entity": "service-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nakora iki ngo mbone urukingo",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "urukingo",
+        "entity": "service-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ese abagore batwite nabana batoya bemerewe gufata urukingo",
+    "entities": [
+      {
+        "start": 50,
+        "end": 58,
+        "value": "urukingo",
+        "entity": "service-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ese mfite covid. nshobora kuvurirwa mu rugo?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ndimo mbona ibimenyetso byinshi bya covid bikomeza kunzahaza. nakora iki",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ese turi muri gumamurugo?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "value": "gumamurugo",
+        "entity": "offence-lockdown"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kigali",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "kigali",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "muri Ruhango amasaha yo gutaha ni ayahe?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "Ruhango",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "inkorora cyaba ari kimwe mu bimenyetso",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "inkorora",
+        "entity": "symptom"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "value": "bimenyetso",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ese nigute na kwirinda covid 19?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nigute nakwirinda covid 19?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "covid",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nzishyura angahe yo kutambara agapfukamunwa?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 43,
+        "value": "kutambara agapfukamunwa",
+        "entity": "offence-mask"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bizagenda gute nintubahiriza amasaha ntarengwa?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 46,
+        "value": "amasaha ntarengwa",
+        "entity": "offence-curfew"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

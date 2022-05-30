@@ -1,0 +1,184 @@
+{
+  "thankyou": {
+    "precision": 0.9767441860465116,
+    "recall": 1.0,
+    "f1-score": 0.988235294117647,
+    "support": 42,
+    "confused_with": {}
+  },
+  "curfew_time": {
+    "precision": 1.0,
+    "recall": 0.9897959183673469,
+    "f1-score": 0.9948717948717948,
+    "support": 98,
+    "confused_with": {
+      "fines_penalties": 1
+    }
+  },
+  "homebased_care_escalation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 77,
+    "confused_with": {}
+  },
+  "vaccination_requirement": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 69,
+    "confused_with": {}
+  },
+  "vaccination_schedule": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 66,
+    "confused_with": {}
+  },
+  "testing_costs": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 44,
+    "confused_with": {}
+  },
+  "prevention": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 57,
+    "confused_with": {}
+  },
+  "lockdown_areas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "testing_procedures": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 44,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "sendoff": {
+    "precision": 0.9787234042553191,
+    "recall": 0.9787234042553191,
+    "f1-score": 0.9787234042553191,
+    "support": 47,
+    "confused_with": {
+      "thankyou": 1
+    }
+  },
+  "fines_penalties": {
+    "precision": 0.9906542056074766,
+    "recall": 1.0,
+    "f1-score": 0.9953051643192489,
+    "support": 106,
+    "confused_with": {}
+  },
+  "symptoms": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 78,
+    "confused_with": {}
+  },
+  "testing_validity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 36,
+    "confused_with": {}
+  },
+  "inappropriate": {
+    "precision": 0.96,
+    "recall": 1.0,
+    "f1-score": 0.9795918367346939,
+    "support": 24,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 65,
+    "confused_with": {}
+  },
+  "testing_centers": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45,
+    "confused_with": {}
+  },
+  "statistics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53,
+    "confused_with": {}
+  },
+  "homebased_care": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "salutations": {
+    "precision": 1.0,
+    "recall": 0.9836065573770492,
+    "f1-score": 0.9917355371900827,
+    "support": 61,
+    "confused_with": {
+      "sendoff": 1
+    }
+  },
+  "specify_location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.9941176470588236,
+    "f1-score": 0.9970501474926253,
+    "support": 170,
+    "confused_with": {
+      "inappropriate": 1
+    }
+  },
+  "accuracy": 0.997037037037037,
+  "macro avg": {
+    "precision": 0.9959183389525785,
+    "recall": 0.9976627620460232,
+    "f1-score": 0.9967614425644092,
+    "support": 1350
+  },
+  "weighted avg": {
+    "precision": 0.9970908160061821,
+    "recall": 0.997037037037037,
+    "f1-score": 0.9970446389571788,
+    "support": 1350
+  }
+}

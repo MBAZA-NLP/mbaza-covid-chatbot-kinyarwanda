@@ -1,0 +1,111 @@
+{
+  "offence-mask": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "symptom": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 56,
+    "confused_with": {}
+  },
+  "service-type": {
+    "precision": 1.0,
+    "recall": 0.9822485207100592,
+    "f1-score": 0.9910447761194029,
+    "support": 169,
+    "confused_with": {}
+  },
+  "location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 112,
+    "confused_with": {}
+  },
+  "person": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "offence-curfew": {
+    "precision": 0.9782608695652174,
+    "recall": 1.0,
+    "f1-score": 0.989010989010989,
+    "support": 45,
+    "confused_with": {}
+  },
+  "offence-lockdown": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 84,
+    "confused_with": {}
+  },
+  "test-validity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "GPE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "offence-bar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "disease": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 365,
+    "confused_with": {}
+  },
+  "offence-gathering": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30,
+    "confused_with": {}
+  },
+  "offence-distance": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9989539748953975,
+    "recall": 0.9968684759916493,
+    "f1-score": 0.9979101358411704,
+    "support": 958
+  },
+  "macro avg": {
+    "precision": 0.9983277591973244,
+    "recall": 0.9986345015930814,
+    "f1-score": 0.9984658280869532,
+    "support": 958
+  },
+  "weighted avg": {
+    "precision": 0.9989788508668421,
+    "recall": 0.9968684759916493,
+    "f1-score": 0.9979040309704318,
+    "support": 958
+  }
+}
